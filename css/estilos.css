@@ -1,0 +1,271 @@
+html {
+    font-size: 62.5%; /** Reset para Rems - 62.5 = 10px de 16px **/ 
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+/** Globales **/
+img {
+    max-width: 100%;
+}
+
+.contenedor {
+    max-width: 120rem; /** =1200px; **/ 
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 8rem;
+}
+
+h2{
+    font-size: 3.4rem;
+}
+h3 {
+    font-size: 3rem;
+}
+
+/** Utilidades **/
+
+.seccion {
+    margin-top: 25rem;
+    margin-bottom: 25rem;
+}
+.fw-300 {
+    font-weight: 300;
+}
+
+.centrar-texto { 
+    text-align: center;
+}
+
+/** Botones **/ 
+
+.boton
+{
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+
+
+}
+.boton-azul {
+    background-color: #5ac4ff;
+}
+
+/* Header */
+
+.site-header{
+    background-color: #000000;
+    padding: 1rem 0 3rem 0;
+}
+
+.site-header.inicio {
+    background-image: url(../img/fondo4.png); 
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 60rem;
+}
+.contenido-header {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contenido-header h1 {
+    color: #ffffff;
+    font-size: 8rem; 
+    padding: 30rem;
+    text-align: center;
+    margin:0;margin-left: auto;margin-right: auto;
+
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+    align-items: center;
+}
+
+/** Navegación**/ 
+.navegacion a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5rem; /** = 15px; **/ 
+    margin-right: 2rem;
+    font-family: 'Lato', sans-serif;
+}
+.navegacion a:hover {
+    color: #5ac4ff;
+}
+.navegacion a:last-of-type {
+    margin: 0;
+}
+
+/** Iconos Artes **/ 
+
+.iconos-artes {
+    display: flex;
+    justify-content: space-between;
+}
+.icono {
+    flex-basis: calc(33.50% - 5rem);
+}
+
+/**Icono redes **/
+
+.icono-redes {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    max-width: 115px;
+    padding: 1rem 15rem;
+}
+.icono-redes li {
+    /* flex: 1; */
+    display: flex;
+}
+.icono-redes li img {
+    margin-right: 2rem; 
+}
+    
+
+/** Contacto **/ 
+
+.imagen-contacto {
+    background-image: url(../img/perfil2.png);
+    background-position: center center;
+    background-size: cover ;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.contenido-contacto {
+    flex: 1;
+    color: #000000;
+}
+.contenido-contacto h2 {
+
+    padding-bottom: 2rem;
+    max-width: 50rem;
+    line-height: 1.5;
+}
+
+/** Instalaciones **/
+.letras {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.imagen-instalaciones {
+    background-image: url(../img/instalaciones.png);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.contenido-contacto h3{
+    color: white;
+}
+
+
+/** Trabajos **/ 
+
+.negro {
+    background-color: #000000;
+    background-position: center center;
+    background-size: cover ;
+    height: 200vh;
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-trabajos {
+    display: flex;
+    justify-content: space-between;
+}
+.trabajos {
+    flex-basis: calc(33.3% - 1rem);
+}
+
+   /** Footer **/
+.site-footer {
+    background-color: #000000;
+    margin: 0;
+}
+.contenedor-footer {
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.copyright {
+    margin: 0;
+    color: #ffffff;
+}
+
+/** Paginas internas **/ 
+
+.contenido-acercademi {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2rem;
+    text-align: justify;
+
+}
+.texto-acercademi blockquote {
+   
+    font-weight: 900;
+    font-size:2rem;
+    margin: 0; 
+}
+
+
+/*** Net art ***/ 
+
+ .caja {
+
+    text-align: justify;
+    color: #ffffff;
+ }
+
+
+/*** Video arte ***/ 
+
+ .imagen-videoarte {
+    background-image: url(../img/Syntax3.png);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center
+
+ }
+  
+.portada-videoarteII {
+    background-image: url(../img/colorsound-2.png);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center
+}
+
+.descripcionvideo {
+    background-image: url(../img/textocolor.png);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center 
+}
